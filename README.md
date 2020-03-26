@@ -22,11 +22,13 @@ Uitleg via video: https://www.youtube.com/watch?v=rPC71lUhK_I
 #### Sandbox setup
 TODO: Sandbox step-to-step uitleg toevoegen.
 
+Op dit moment draait hij om op mijn eigen sandbox, mocht er een persoonlijke sandbox worden gebruikt moeten de volgende variabelen vervangen worden:
 Via <https://sandbox.neo4j.com/> moet er eerst met een Neo4j account worden ingelogd (gratis). Vervolgens, zodra er een "Blank Sandbox" is aangemaakt en runned, kunnen we beginnen met het vervangen van een aantal variabelen.
 
-Op dit moment draait hij om op mijn eigen sandbox, mocht er een persoonlijke sandbox worden gebruikt moeten de volgende variabelen vervangen worden:
 - in ./api/.env staan er een aantal velden.
 - Vervang NEO4J_URI en NEO4J_PASSWORD voor de desbetreffende velden binnen je eigen sandbox details.
+
+
 ### [`/api`](./api)
 
 *Install dependencies*
@@ -72,6 +74,8 @@ See [the project releases](https://github.com/grand-stack/grand-stack-starter/re
 
 ### Zeit Now v2
 
+TODO: Zeit now werkende krijgen zodat de toekomstige website niet alleen lokaal geopend kan worden. Op dit moment echter nog problemen hiermee.
+
 Zeit Now v2 can be used with monorepos such as grand-stack-starter. [`now.json`](https://github.com/grand-stack/grand-stack-starter/blob/master/now.json) defines the configuration for deploying with Zeit Now v2.
 
 1. Set the now secrets for your Neo4j instance:
@@ -97,10 +101,7 @@ You can quickly start via:
 docker-compose up -d
 ```
 
-If you want to load the example DB after the services have been started:
-```
-docker-compose run api npm run seedDb
-```
+Dit moet als het goed is ook werken, heb de docker-compose.yml aangepast op de instellingen van mijn sandbox.
 
 
 This project is licensed under the Apache License v2.
