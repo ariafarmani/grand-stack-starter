@@ -15,8 +15,6 @@ Alles in het Engels is van het orgineel overgenomen, wellicht wordt dit in de to
 Zodra de sandbox is ingesteld, hoort alles het te doen mits alles hieronder succesvol wordt uitgevoerd.
 
 ## Quick start
-For schemas using the  `@cypher` directive (as in this repo) via [`neo4j-graphql-js`](https://github.com/neo4j-graphql/neo4j-graphql-js), you need to have the [APOC library](https://github.com/neo4j-contrib/neo4j-apoc-procedures) installed, which should be automatic in Sandbox, Cloud and is a single click install in Neo4j Desktop. If when using the Sandbox / cloud you encounter an issue where an error similar to `Can not be converted to long: org.neo4j.kernel.impl.core.NodeProxy, Location: [object Object], Path: users` appears in the console when running the React app, try installing and using Neo4j locally instead.
-
 Uitleg via video: https://www.youtube.com/watch?v=rPC71lUhK_I
 
 #### Sandbox setup
